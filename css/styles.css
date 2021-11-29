@@ -1,0 +1,94 @@
+body{
+   
+    /* background-color:ghostwhite; */
+}
+
+#terms{
+    float: left;
+    padding-right: 10%;
+    padding-left: 5%;
+
+}
+h4, p, li{
+    font-family:sans-serif;
+    /* font-weight: lighter; */
+}
+h4{
+    font-weight: bolder;
+    padding-right: 5%;
+}
+h1{
+        font-family: 'Poppins', sans-serif; 
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+b{
+    font-family:sans-serif; 
+    font-weight:bolder;
+}
+.heading{
+    margin-bottom: 2%;
+   margin-top: 2%;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.card-img{
+    width: 100%;
+    float: right;
+    border-radius: 3%;
+}
+#image{
+    float: left;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-radius: 5%;
+}
+.flex-container{
+    display:flex;
+    margin: 5%;
+   
+}
+.flex-child{
+    flex:1;
+}
+.card{
+    max-width: 100%;
+    margin-top: 2%;
+    /* width: 55%; */
+    /* margin-left: 10%; */
+    /* margin-right: 20%; */
+    /* float: left; */
+    border-radius: 5%;
+    border: 0;
+}
+.card-group{
+    margin-left: 5%; 
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width:85%;
+}
+
+.card-title{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 5%;
+}
+.card-text{
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.btn{
+    
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-right: 25%;
+}
+ol{
+    padding-left: 8%; 
+    padding-top: 1%; 
+}
+form{
+    padding-left: 5%;
+    padding-right: 5%;
+}

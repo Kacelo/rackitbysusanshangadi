@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+            Rack It Terms and Conditions
+        </title>
+        <meta charset="utf-8">
+        <!--Bootstrap Links-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel ="stylesheet" type ="text/css" href ="css/styles.css">
+        <!--Facicon Links-->
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="icon" href = "favicon.ico">
+        
+    </head>
+    <body>
+        <div class ="row">
+            <div class ="col col-md-12 col-sm-12">
+        <h1 class = "heading"><b>Terms and Conditions</b></h1>
+        <div class ="card-group">
+
+            <div class="card">
+                <img class="card-img" src="IMG-20211114-WA0016.jpg" alt="Card image">
+               
+                  
+                </div>
+           
+            <div class ="card">
+                <h4 class ="card-title">Please Read through the below listed terms and conditions before continuing with your purchase.</h4>
+        
+                <ol>
+                    <li>
+                        If Item delivered was what you ordered
+                    </li>
+                    <li>
+                        In size you wanted
+                    </li>
+                    <li>
+                        Colour You wanted
+                    </li>
+                </ol>
+    
+                <p class ="card-text">
+                   You will have to make a payment whether you fit or not or if the product does not meet your expectations.
+                    it will be your responsibility to resell it if you see fit. 
+                </p>
+                <p class ="card-text">
+                    Rack It will only be liable when one of the 3 are not met and seems to be an error from Rack It's end.
+                </p>
+               
+                <form>
+                    <label for ="agree"><b>I have read and understood the terms and conditions and wish 
+                        to continue with my order</b></label>
+                    <input type ="checkbox" id ="agree" name ="agreed" onchange="change_button(this, 'sub1')"/>
+                    <!--<input type ="checkbox" id ="agree" name ="agreed" onchange="change_button(this, 'submit_link')"/>-->
+                    <br>
+                    <label for ="cancel"><b>No I will not continue with this engagement.</b></label>
+                    <input type ="checkbox" id ="cancel" name ="cancel" value = "1">
+                    <div>
+                      <!--<a href = "mailto:vernonkachelo@gmail.com" class="btn btn-dark" role="button" id ="sub1" disabled="disabled">send confirmation email</a>
+
+
+                        <button type ="submit" class ="btn btn-dark" id = "sub1" disabled="disabled"><a href ="mailto:vernonkachelo@gmail.com"></a>send mail</button>-->
+
+                        <input type="button" onclick="window.location.href='mailto:vernonkachelo@gmail.com' "value= "send confirmation email" class="btn btn-dark" name="submit" id="sub1" disabled="disabled">
+                        
+
+                    </div>
+                </form>
+                <div class="card-footer text-muted">
+                    By clicking "send confirmation email”, you agree to our terms of service
+                  </div>
+                <!-- <button type="button" class="btn btn-md btn-primary" disabled>Proceed to purchase</button> -->
+            </div>
+            <!--<div class="card">
+                <img class="card-img" src="IMG-20211114-WA0016.jpg" alt="Card image">
+               
+                  
+                </div>-->
+           
+              </div>
+              </div>
+        </div>
+
+        <script type = "text/javascript">
+            function change_button(agree,sub1) {
+                var btn = document.getElementById(sub1);
+                if (agree.checked == true) {
+                    btn.disabled = "";
+                } else {
+                    btn.disabled = "disabled";
+                }
+            }
+            </script>
+
+        <script type ="text/javascript">
+            function change_button(checkbox, submit_link)
+            {   
+                var btnn = document.getElementById(submit_link);
+
+                if(agree.checked == true){
+                    btnn.disabled =false;
+                }
+                else {
+                    btnn.disabled = true;
+                }
+            
+            }
+        </script>
+        </script>
+            <script defer src = "https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+</html>
